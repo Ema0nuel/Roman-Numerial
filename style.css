@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif, "Poppins", "Fira Code";
+  background: #292953;
+  color: #fff;
+}
+.wrapper {
+  width: 400px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper h1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+form {
+  width: 100%;
+  margin-bottom: 10px;
+}
+fieldset {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #fff;
+  padding: 20px;
+  background: #444468;
+}
+fieldset label {
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+fieldset input {
+  width: 100%;
+  height: 30px;
+  background: #292953;
+  border: 2px solid #fff;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  outline: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.btn-gold {
+  border: 2px solid rgb(233, 174, 12);
+  background: linear-gradient(180deg, #fcc349, rgb(233, 174, 12));
+  color: #000;
+}
+.btn:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 0.9;
+}
+.btn:active {
+  transform: translateY(2px);
+}
+.error {
+  width: 100%;
+  font-size: 14px;
+  border: 2px solid darkred;
+  background: pink;
+  color: darkred;
+  padding: 10px;
+  text-align: center;
+}
+.value {
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+  border: 3px solid #fff;
+  background: #444468;
+}
